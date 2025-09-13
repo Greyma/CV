@@ -76,6 +76,64 @@ IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés
 
 ---
 
+## 📚 Plus de projets (index rapide)
+
+AI/Computer Vision
+- Analyse Biomedical: pipelines d’analyse biomédicale (à compléter) — https://github.com/Greyma/Analyse-Biomedical
+- Mask-RCNN-2024: segmentation d’instances Mask R‑CNN — https://github.com/Greyma/Mask-RCNN-2024
+- drawcontours: traitement d’images OpenCV (contours) — https://github.com/Greyma/drawcontours
+- NDSC_Task: tâches data science/compétition — https://github.com/Greyma/NDSC_Task
+- GitHub-For-Project-iA: ressources/modèles IA — https://github.com/Greyma/GitHub-For-Project-iA
+
+Backends & APIs
+- kleer‑infini‑backend: API sécurisée JWT/RBAC (PostgreSQL/Prisma) — https://github.com/Greyma/kleer-infini-backend
+- Backend‑Python: services Python (Flask/FastAPI) — https://github.com/Greyma/Backend-Python
+- Backend‑Python2: services Python (suite) — https://github.com/Greyma/Backend-Python2
+- Backend‑delegue: gestion délégués/back‑office — https://github.com/Greyma/Backend-delegue
+- backend‑loupgarou: API jeu Loup‑Garou — https://github.com/Greyma/backend-loupgarou
+- HakoBackend: backend projet Hako — https://github.com/Greyma/HakoBackend
+- mon‑backend: expérimentation backend — https://github.com/Greyma/mon-backend
+- Redis: essais cache/messaging Redis — https://github.com/Greyma/Redis
+
+Frontends (React/Web)
+- frontend‑serieFlix: front type Netflix — https://github.com/Greyma/frontend-serieFlix
+- NetflixApp / NatflixApp: clones Netflix — https://github.com/Greyma/NetflixApp · https://github.com/Greyma/NatflixApp
+- Cawa‑Netflix: front streaming — https://github.com/Greyma/Cawa-Netflix
+- M‑tech‑front: front app M‑tech — https://github.com/Greyma/M-tech-front
+- FrontEnd‑Delegu‑: interfaces délégués — https://github.com/Greyma/FrontEnd-Delegu-
+- react‑AppReact: démos React — https://github.com/Greyma/react-AppReact
+- front‑repo: composants/PoC — https://github.com/Greyma/front-repo
+- Greyma.github.io: portfolio/site perso — https://github.com/Greyma/Greyma.github.io
+- pimath.github.io: site club Pi‑Math — https://github.com/Greyma/pimath.github.io
+
+Electron / Desktop
+- Electron‑M‑Tech (+ Server/With‑Backend): application desktop avec backend —
+  https://github.com/Greyma/Electron-M-Tech · https://github.com/Greyma/Electron-M-Tech-Server · https://github.com/Greyma/Electron-M-tech-With-Backend
+
+Web/Apps métiers
+- Aromatherapie: encyclopédie parfums/huiles essentielles — https://github.com/Greyma/Aromatherapie
+- Reservation‑Medcin: réservation médicale — https://github.com/Greyma/Reservation-Medcin
+- WebSiteUMBB: site web université — https://github.com/Greyma/WebSiteUMBB
+- dashboard‑Ecole: tableau de bord — https://github.com/Greyma/dashboard-Ecole
+- formation‑site: site de formation — https://github.com/Greyma/formation-site
+- AmineImmobillier: app immobilier — https://github.com/Greyma/AmineImmobillier
+- mersa‑trade: app trading/commerciale — https://github.com/Greyma/mersa-trade
+- Xprinter: impression/escpos — https://github.com/Greyma/Xprinter
+
+Jeux / Projets académiques / Divers
+- loup‑garou: jeu + backend — https://github.com/Greyma/loup-garou · https://github.com/Greyma/backend-loupgarou
+- Davis‑Putnam: solveur SAT (logique) — https://github.com/Greyma/Davis-Putnam
+- QRCodeChallenge / QR-code-component: challenges frontend — https://github.com/Greyma/QRCodeChallenge · https://github.com/Greyma/QR-code-component-Frontend-Mentor-
+- NbrMagic: outils/jeux numériques — https://github.com/Greyma/NbrMagic
+- One‑piece / Pokemon / Pokemon2: apps démos — https://github.com/Greyma/One-piece · https://github.com/Greyma/Pokemon · https://github.com/Greyma/Pokemon2
+- Recyclage / SE / UTPS / SAKA / event‑16‑avril / il‑devlopper / Garoui —
+  https://github.com/Greyma/Recyclage · https://github.com/Greyma/SE · https://github.com/Greyma/UTPS · https://github.com/Greyma/SAKA · https://github.com/Greyma/event-16-avril · https://github.com/Greyma/il-devlopper · https://github.com/Greyma/Garoui
+
+Bootcamps & Pédagogie
+- backend‑bootcamp‑ia / Bootcamp_iA: contenus bootcamp IA — https://github.com/Greyma/backend-bootcamp-ia · https://github.com/Greyma/Bootcamp_iA
+
+> Remplacez/complétez les descriptions en une ligne pour chaque dépôt selon vos READMEs. Ajoutez badges, demos et social previews sur GitHub pour booster la visibilité.
+
 ## 🎓 Formation
 - Master 2 Informatique — Systèmes d’Information, Université de Boumerdès (UMBB) — soutenance prévue 2026 (mémoire: Identification d’un traitement via ADN)
 - Licence en Informatique — Systèmes d’Information, UMBB (2024)
