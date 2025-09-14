@@ -1,23 +1,20 @@
-# Ouahabi Benhenni — IA & Full‑Stack Developer
+# Ouahabi Benhenni — IA & Full-Stack Developer
 
-IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés en open‑source, avec focus sur reproductibilité, qualité de code et transmission (mentorat/formation).
+Note: une partie importante de mes dépôts est privée (🔒). Accès aux repos et démos sur demande. Ce portfolio regroupe des extraits publics et des aperçus.
 
-- Domaines: vision médicale (classification, segmentation, détection), génomique (séquences ADN), web apps (API sécurisées, dashboards), optimisation d’environnements.
-- Stacks: Python (PyTorch, TensorFlow, Keras, OpenCV), Node.js/Express, React + Tailwind/ShadCN, PostgreSQL/MySQL/MongoDB, Docker.
-- Méthodes: OOP, Design Patterns, Git/GitHub, CI/CD, tests, doc claire et scripts de démarrage.
+## À propos
+Développeur en intelligence artificielle maîtrisant machine learning et deep learning, avec un focus sur la vision par ordinateur: classification d’images, segmentation et détection d’objets. Pratique du transfer learning et du fine‑tuning; architectures U‑Net, Mask R‑CNN et Vision Transformers; frameworks TensorFlow, PyTorch et Keras. Intégration, optimisation et déploiement de modèles; et développement Full‑Stack (React, Node.js).
 
----
+— Portfolio: https://ouahabi-benhenni.web.app/
 
-## 🏆 Faits marquants
-- 93%+ sur la classe mélanome (CNN + Vision Transformers), avec transfert d’apprentissage, fine‑tuning et ensembles.
-- Pipelines IA reproductibles (segmentation U‑Net, détection YOLOv8, comptage cellulaire) intégrés à des backends/frontends.
-- Backends Node/Express sécurisés (JWT + refresh, RBAC), migrations et seeds, Docker Compose.
-- Mentorat/formation: encadrement de développeurs (React, Node.js, MongoDB, SQL), ressources pédagogiques et revues de code.
-- Compétitions et engagements: 1re place comp. IA (vision médicale), président de club, juré de projets académiques.
+## Faits marquants
+- 93%+ sur la classe mélanome (CNN + Vision Transformers) avec transfert d’apprentissage, fine‑tuning et ensembles.
+- Pipelines IA reproductibles (segmentation U‑Net/LinkNet/PSPNet, détection YOLOv8, comptage cellulaire) intégrés à des backends/frontends.
+- Backends Node/Express sécurisés (JWT + refresh, RBAC), migrations & seeds, Docker Compose.
+- Mentorat/formation: encadrement de développeurs (React, Node.js, MongoDB/SQL), ressources pédagogiques, revues de code.
+- Engagements: compétitions IA (vision médicale), président de club, membre de jury.
 
----
-
-## 🔬 IA & Vision par Ordinateur (sélection)
+## IA & Vision par Ordinateur (sélection)
 
 ### Skin Cancer Classification (CNN + ViT)
 - Objectif: classifier des lésions de peau (dont mélanomes).
@@ -26,7 +23,7 @@ IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés
 - Stack: PyTorch/TensorFlow, Keras, OpenCV.
 
 ### Pipeline d’Analyse Médicale (segmentation & classification)
-- Objectif: pipeline de bout en bout pour segmentation (U‑Net) et détection/comptage (YOLOv8) de cellules.
+- Objectif: pipeline de bout en bout pour segmentation (U‑Net/LinkNet/PSPNet) et détection/comptage (YOLOv8) de cellules.
 - Intégration: API (Flask/Node) + UI (React), scripts d’entraînement et d’inférence.
 - Stack: PyTorch, Ultralytics YOLOv8, OpenCV, Flask/React.
 
@@ -35,49 +32,31 @@ IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés
 - Contributions: DataLoader PyTorch pour séquences ADN, criblage virtuel (SMILES, fingerprints, graphes moléculaires).
 - Stack: PyTorch, RDKit (selon dispo), scikit‑learn.
 
----
-
-## 🌐 Développement Full‑Stack (sélection)
+## Développement Full‑Stack (sélection)
 
 ### Kleer Infini Backend
 - API Node/Express sécurisée (JWT + refresh), rôles/permissions (RBAC), PostgreSQL/Prisma, Docker.
-- Artefacts: migrations, seeds, Postman collection, scripts `npm run dev`/`docker compose up`.
+- Artefacts: migrations, seeds, Postman collection, scripts `npm run dev` / `docker compose up`.
 - Lien: https://github.com/Greyma/kleer-infini-backend
 
 ### Parfumthérapie / Aromathérapie (en cours)
 - Encyclopédie des parfums et huiles essentielles (effets, utilités, compositions).
 - Stack: Backend Node.js (Express), Frontend React, DB PostgreSQL.
-- Code: https://github.com/Greyma/REPO‑parfum (à remplacer)
+- Code: https://github.com/Greyma/Aromatherapie
 
 ### Streaming vidéo temps réel
 - Diffusion faible latence via ffmpeg + React, WebSocket; monitoring basique.
 - Stack: ffmpeg, React, Node/WebSocket.
-- Code: https://github.com/Greyma/REPO‑streaming (à remplacer)
 
 ### Optimisation Kaggle (environnements)
-- Synchronisation de sessions (WebSocket), 90 Go RAM + double T4; accélération entraînements TF/PyTorch.
+- Synchronisation de sessions, 90 Go RAM + double T4; accélération entraînements TF/PyTorch.
 - Notes: scripts et astuces reproductibles; documentation claire.
-- Code: https://github.com/Greyma/REPO‑kaggle (à remplacer)
 
----
+## Plus de projets (index rapide)
 
-## 🧰 Compétences
-- Langages: Python, Java, C++, C#, JavaScript, SQL, PHP, Pascal
-- IA/ML/DL: PyTorch, TensorFlow 2, Keras, scikit‑learn, OpenCV, Ultralytics
-- Modèles: CNN, U‑Net, YOLOv8, Vision Transformers, Mask R‑CNN, RNN
-- Backend: Flask, FastAPI, Node.js (Express)
-- Frontend: React.js, Tailwind, ShadCN
-- Bases de données: PostgreSQL, MySQL, SQL Server, MongoDB
-- Outils: Kaggle, Jupyter, Anaconda, VSCode, IntelliJ, Android Studio, Unity, Docker, Laragon
-- Méthodologies: OOP, Design Patterns, Git/GitHub, CI/CD
-
----
-
-## 📚 Plus de projets (index rapide)
-> Beaucoup de mes dépôts sont privés (🔒). Accès/repos et démos sur demande; certains liens ci‑dessous peuvent nécessiter une autorisation.
-
-AI/Computer Vision
-- Analyse Biomedical: pipelines d’analyse biomédicale (à compléter) — https://github.com/Greyma/Analyse-Biomedical
+AI / Computer Vision
+- Analyse Biomedical: pipelines d’analyse biomédicale — https://github.com/Greyma/Analyse-Biomedical
+- AnalyseBioMedical: variantes/expérimentations — https://github.com/Greyma/AnalyseBioMedical
 - Mask-RCNN-2024: segmentation d’instances Mask R‑CNN — https://github.com/Greyma/Mask-RCNN-2024
 - drawcontours: traitement d’images OpenCV (contours) — https://github.com/Greyma/drawcontours
 - NDSC_Task: tâches data science/compétition — https://github.com/Greyma/NDSC_Task
@@ -108,7 +87,7 @@ Electron / Desktop
 - Electron‑M‑Tech (+ Server/With‑Backend): application desktop avec backend —
   https://github.com/Greyma/Electron-M-Tech · https://github.com/Greyma/Electron-M-Tech-Server · https://github.com/Greyma/Electron-M-tech-With-Backend
 
-Web/Apps métiers
+Web / Apps métiers
 - Aromatherapie: encyclopédie parfums/huiles essentielles — https://github.com/Greyma/Aromatherapie
 - Reservation‑Medcin: réservation médicale — https://github.com/Greyma/Reservation-Medcin
 - WebSiteUMBB: site web université — https://github.com/Greyma/WebSiteUMBB
@@ -123,36 +102,39 @@ Jeux / Projets académiques / Divers
 - Davis‑Putnam: solveur SAT (logique) — https://github.com/Greyma/Davis-Putnam
 - QRCodeChallenge / QR-code-component: challenges frontend — https://github.com/Greyma/QRCodeChallenge · https://github.com/Greyma/QR-code-component-Frontend-Mentor-
 - NbrMagic: outils/jeux numériques — https://github.com/Greyma/NbrMagic
-- One‑piece : apps démos — https://github.com/Greyma/One-piece
+- One‑piece / Pokemon / Pokemon2: apps démos — https://github.com/Greyma/One-piece · https://github.com/Greyma/Pokemon · https://github.com/Greyma/Pokemon2
 - Recyclage / SE / UTPS / SAKA / event‑16‑avril / il‑devlopper / Garoui —
   https://github.com/Greyma/Recyclage · https://github.com/Greyma/SE · https://github.com/Greyma/UTPS · https://github.com/Greyma/SAKA · https://github.com/Greyma/event-16-avril · https://github.com/Greyma/il-devlopper · https://github.com/Greyma/Garoui
 
 Bootcamps & Pédagogie
 - backend‑bootcamp‑ia / Bootcamp_iA: contenus bootcamp IA — https://github.com/Greyma/backend-bootcamp-ia · https://github.com/Greyma/Bootcamp_iA
 
-> Remplacez/complétez les descriptions en une ligne pour chaque dépôt selon vos READMEs. Ajoutez badges, demos et social previews sur GitHub pour booster la visibilité.
+## Dépôts privés
+- Nombreux dépôts sont privés (travaux clients/projets en cours). Accès et démos sur demande (LinkedIn/email ci‑dessous).
 
-## 🎓 Formation
+## Compétences
+- Langages: Python, Java, C++, C#, JavaScript, SQL, PHP, Pascal
+- IA/ML/DL: PyTorch, TensorFlow 2, Keras, scikit‑learn, OpenCV, Ultralytics
+- Modèles: CNN, U‑Net, YOLOv8, Vision Transformers, Mask R‑CNN, RNN
+- Backend: Flask, FastAPI, Node.js (Express)
+- Frontend: React.js, Tailwind, ShadCN
+- Bases de données: PostgreSQL, MySQL, SQL Server, MongoDB
+- Outils: Kaggle, Jupyter, Anaconda, VSCode, IntelliJ, Android Studio, Unity, Docker, Laragon
+- Méthodologies: OOP, Design Patterns, Git/GitHub, CI/CD
+
+## Formation
 - Master 2 Informatique — Systèmes d’Information, Université de Boumerdès (UMBB) — soutenance prévue 2026 (mémoire: Identification d’un traitement via ADN)
 - Licence en Informatique — Systèmes d’Information, UMBB (2024)
 - Technicien Supérieur — Administration de Bases de Données, INSFP Hamdi Ben Yahia (2018–2021)
 
----
-
-## 👥 Mentorat & Engagement
+## Mentorat & Engagement
 - Mentor/Coach Full‑StackJS (2024–2025): React, Node.js, Express, MongoDB/SQL; bonnes pratiques dev.
 - Président du Club Informatique (UMBB): hackathons, ateliers, formations techniques.
 - Membre de jury: évaluation de projets académiques.
 
----
-
-## 🔒 Dépôts privés
-- Une grande partie de mes dépôts est privée (travaux clients/projets en cours).
-- Accès et démos sur demande: contactez‑moi sur LinkedIn ou par email.
-
-## 📬 Contact
+## Contact
 - Email: Ouahabi.benhenni.fs@univ-boumerdes.dz
 - LinkedIn: https://www.linkedin.com/in/ouahabi-benhenni-a28bb5155
 - GitHub: https://github.com/Greyma
+- Portfolio: https://ouahabi-benhenni.web.app/
 
----
