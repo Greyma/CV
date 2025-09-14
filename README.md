@@ -24,19 +24,16 @@ IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés
 - Approches: transfer learning, fine‑tuning, ensembles, Vision Transformers.
 - Résultat: >93% sur la classe mélanome.
 - Stack: PyTorch/TensorFlow, Keras, OpenCV.
-- Code: https://github.com/Greyma/REPO‑peau (à remplacer)
 
 ### Pipeline d’Analyse Médicale (segmentation & classification)
 - Objectif: pipeline de bout en bout pour segmentation (U‑Net) et détection/comptage (YOLOv8) de cellules.
 - Intégration: API (Flask/Node) + UI (React), scripts d’entraînement et d’inférence.
 - Stack: PyTorch, Ultralytics YOLOv8, OpenCV, Flask/React.
-- Code: https://github.com/Greyma/REPO‑cellules (à remplacer)
 
 ### Identification d’un traitement via ADN (M2 — en cours)
 - Objectif: relier mutations génétiques et protocole de traitement personnalisé.
 - Contributions: DataLoader PyTorch pour séquences ADN, criblage virtuel (SMILES, fingerprints, graphes moléculaires).
 - Stack: PyTorch, RDKit (selon dispo), scikit‑learn.
-- Code: https://github.com/Greyma/REPO‑adn (à remplacer)
 
 ---
 
@@ -77,6 +74,7 @@ IA biomédicale, vision par ordinateur et backends sécurisés. Projets publiés
 ---
 
 ## 📚 Plus de projets (index rapide)
+> Beaucoup de mes dépôts sont privés (🔒). Accès/repos et démos sur demande; certains liens ci‑dessous peuvent nécessiter une autorisation.
 
 AI/Computer Vision
 - Analyse Biomedical: pipelines d’analyse biomédicale (à compléter) — https://github.com/Greyma/Analyse-Biomedical
@@ -125,7 +123,7 @@ Jeux / Projets académiques / Divers
 - Davis‑Putnam: solveur SAT (logique) — https://github.com/Greyma/Davis-Putnam
 - QRCodeChallenge / QR-code-component: challenges frontend — https://github.com/Greyma/QRCodeChallenge · https://github.com/Greyma/QR-code-component-Frontend-Mentor-
 - NbrMagic: outils/jeux numériques — https://github.com/Greyma/NbrMagic
-- One‑piece / Pokemon / Pokemon2: apps démos — https://github.com/Greyma/One-piece · https://github.com/Greyma/Pokemon · https://github.com/Greyma/Pokemon2
+- One‑piece : apps démos — https://github.com/Greyma/One-piece
 - Recyclage / SE / UTPS / SAKA / event‑16‑avril / il‑devlopper / Garoui —
   https://github.com/Greyma/Recyclage · https://github.com/Greyma/SE · https://github.com/Greyma/UTPS · https://github.com/Greyma/SAKA · https://github.com/Greyma/event-16-avril · https://github.com/Greyma/il-devlopper · https://github.com/Greyma/Garoui
 
@@ -148,16 +146,13 @@ Bootcamps & Pédagogie
 
 ---
 
+## 🔒 Dépôts privés
+- Une grande partie de mes dépôts est privée (travaux clients/projets en cours).
+- Accès et démos sur demande: contactez‑moi sur LinkedIn ou par email.
+
 ## 📬 Contact
 - Email: Ouahabi.benhenni.fs@univ-boumerdes.dz
 - LinkedIn: https://www.linkedin.com/in/ouahabi-benhenni-a28bb5155
 - GitHub: https://github.com/Greyma
 
 ---
-
-## ✅ Comment utiliser ces dépôts
-- Consultez d’abord les READMEs: objectifs, stack, quickstart, exemples d’usage.
-- Reproductibilité: scripts d’entraînement/inférence, environnements Docker/conda et jeux d’exemples.
-- Issues & Roadmaps: contributions bienvenues; TODOs et prochaines étapes documentées.
-
-> Astuce: pour chaque repo, pensez à compléter la “Description”, les “Topics”, et à ajouter un “Social preview” (bannière) pour une meilleure visibilité.
