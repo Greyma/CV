@@ -1,0 +1,121 @@
+% CV LaTeX — Ouahabi Benhenni
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style et couleurs
+\moderncvstyle{banking}
+\moderncvcolor{grey}
+
+% Encodage et langue
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{microtype}
+
+% Forcer les icônes symbols pour éviter fontawesome5
+\moderncvicons{symbols}
+
+% Mise en page
+\usepackage[scale=0.90]{geometry}
+\setlength{\hintscolumnwidth}{3.1cm}
+\renewcommand*{\namefont}{\fontsize{26}{28}\bfseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{12}{14}\mdseries\upshape}
+
+% Informations personnelles
+\name{Ouahabi}{Benhenni}
+\title{AI Software Engineer · Computer Vision \& Biomedical AI}
+\address{Boumerdès, Algérie}{}{ }
+\phone[mobile]{+213 6 76 95 79 17}
+\email{Ouahabi.benhenni.fs@univ-boumerdes.dz}
+\homepage{ouahabi-benhenni.web.app}
+\social[linkedin]{ouahabi-benhenni-a28bb5155}
+\social[github]{Greyma}
+
+\begin{document}
+\makecvtitle
+
+% RÉCOMPENSES — mis en avant dès le début
+\section{Récompenses et Distinctions}
+\cvitem{2025}{\textbf{1\textsuperscript{ère} place} — Compétition Nationale IA Algérie-Tunisie (DevUp Boumerdès / Univ.\ de Tébessa) : projet de vision médicale par Deep Learning.}
+
+% PROFIL
+\section{Profil}
+\cvitem{}{AI Software Engineer spécialisé en Computer Vision, Biomedical AI et systèmes distribués. Maîtrise des pipelines complets : acquisition de données, entraînement de modèles (CNN, Vision Transformers, U-Net, YOLOv8), déploiement et intégration dans des applications web temps réel. Recherche active en génomique computationnelle appliquée à l'identification de traitements via l'analyse ADN. Expérimenté en architecture microservices, encadrement technique et collaboration en équipe Agile.}
+
+% COMPÉTENCES
+\section{Compétences}
+\cvitem{Langages}{Python, JavaScript, Java, C++, C\#, SQL, PHP}
+\cvitem{IA / ML / DL}{PyTorch, TensorFlow, Keras, Scikit-Learn, OpenCV, Ultralytics, HuggingFace Transformers}
+\cvitem{Architectures}{CNN, U-Net, YOLOv8, Vision Transformers, Mask R-CNN, RNN, Nucleotide Transformer}
+\cvitem{LLM / GenAI}{LangChain, LangGraph, agents LLM, RAG, FAISS, ONNX}
+\cvitem{Backend}{FastAPI, Flask, Django (DRF, Channels, Celery), Node.js (Express)}
+\cvitem{Frontend}{React.js, Next.js, Tailwind CSS, ShadCN}
+\cvitem{Bases de données}{PostgreSQL, MySQL, MongoDB, SQL Server}
+\cvitem{DevOps \& Cloud}{Docker, CI/CD (GitHub Actions), Linux/VPS, Apache, Nginx, PM2}
+\cvitem{Méthodologies}{OOP, Design Patterns, Git/GitHub, Agile/Scrum, RBAC, JWT}
+
+% EXPÉRIENCE
+\section{Expérience Professionnelle}
+
+\cventry{Août 2025 -- Présent}{Consultant en Intelligence Artificielle}{Badis.ai}{Alger, Algérie}{}{%
+\begin{itemize}
+  \item \textbf{Audit \& Conseil IA} : Évaluation de faisabilité et planification d'un système d'IA adaptative éducative pour la plateforme ActivMath (1\,000+ utilisateurs).
+  \item \textbf{Architecture} : Conception du pipeline de recommandation personnalisée et de suivi d'apprentissage (microservices Python, APIs REST, ONNX).
+  \item \textbf{Intégration} : Déploiement de la solution dans l'écosystème existant (Flask/Next.js) sur VPS auto-géré.
+\end{itemize}}
+
+\cventry{Juin -- Septembre 2025}{Développeur Full-Stack}{Kleerinfinit}{Alger, Algérie}{}{%
+\begin{itemize}
+  \item Développement d'une plateforme SaaS B2B multi-tenant avec Django 5, DRF, Django Channels (WebSockets) et Celery.
+  \item Conception d'une API RESTful avec authentification JWT, gestion des rôles RBAC et tableaux de bord analytiques.
+  \item Collaboration en équipe de 5 développeurs (Agile, code reviews, sprints bimensuels).
+\end{itemize}}
+
+\cventry{2025}{Mentor — Bootcamp \og{}CodeCraft AI to FullStack\fg{}}{FormationTech}{Algérie}{}{%
+\begin{itemize}
+  \item Encadrement de 30+ participants sur Data Science, Deep Learning, Computer Vision et NLP.
+  \item Supervision de projets de 48h présentés devant jury universitaire ; déploiement d'une plateforme de ressources IA.
+\end{itemize}}
+
+\cventry{2024--2025}{Développeur IA Freelance}{}{}{}{%
+\begin{itemize}
+  \item Conception de pipelines de segmentation et classification d'images médicales (U-Net, YOLOv8, LinkNet, PSPNet).
+  \item Intégration des modèles dans des interfaces web interactives (Flask, React.js).
+\end{itemize}}
+
+\cventry{2025}{Chef du Département Développement — Club DevUp}{Université de Boumerdès}{}{}{%
+Encadrement de 120 membres ; organisation des formations Web, Mobile et IA ; gestion de projets de développement.}
+
+\cventry{2024}{Président du Club Informatique}{Université de Boumerdès}{}{}{%
+Direction d'un club de 300 membres : hackathons, ateliers techniques, formations et partenariats universitaires.}
+
+\cventry{2023--2024}{Projets IA Médicale}{Université de Boumerdès / CHU Mustapha Bacha}{}{}{%
+\begin{itemize}
+  \item Classification du cancer de la peau (CNN + Vision Transformers) — \textbf{93\,\% de précision}.
+  \item Détection et comptage cellulaire automatisé (YOLOv8) ; détection du paludisme.
+  \item Pipeline de diagnostic médical complet : preprocessing → inférence → interface web.
+\end{itemize}}
+
+% RECHERCHE
+\section{Recherche \& Publications}
+\cvitem{Mémoire M2}{\emph{Identification d'un traitement via ADN} — fine-tuning de Nucleotide Transformer v2 sur variants ClinVar pour la prédiction de pathogénicité SNV (AUC 0,987 en évaluation OOD par gène).}
+\cvitem{Article soumis}{Classification des mélanomes par Deep Learning (CNN \& Vision Transformers) — soumis à comité de lecture.}
+
+% FORMATION
+\section{Formation}
+\cventry{2026 (prévue)}{Master 2 Informatique — Systèmes d'Information}{Université de Boumerdès (UMBB)}{}{}{}
+\cventry{2024}{Licence en Informatique — Systèmes d'Information}{Université de Boumerdès (UMBB)}{}{}{}
+\cventry{2018--2021}{Technicien Supérieur en Administration de Bases de Données}{INSFP Hamdi Ben Yahia}{}{}{}
+\cventry{2021}{Baccalauréat — Mathématiques}{Bouira}{}{}{}
+\cventry{2023--2024}{Certifications IA (Computer Vision, NLP, LLM)}{Kaggle · Udemy · Hugging Face}{}{}{}
+
+% LANGUES
+\section{Langues}
+\cvitem{Arabe}{C2 — Natif}
+\cvitem{Français}{C1}
+\cvitem{Anglais}{B2}
+
+% PORTFOLIO
+\section{Portfolio \& GitHub}
+\cvitem{}{\url{https://ouahabi-benhenni.web.app} \quad \url{https://github.com/Greyma}}
+
+\end{document}

@@ -1,0 +1,137 @@
+% CV LaTeX — Ouahabi Benhenni (English)
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style and colors
+\moderncvstyle{banking}
+\moderncvcolor{grey}
+
+% Encoding and language
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+
+% Force symbols icons to avoid fontawesome5
+\moderncvicons{symbols}
+
+% Layout
+\usepackage[scale=0.90]{geometry}
+\setlength{\hintscolumnwidth}{3.1cm}
+\renewcommand*{\namefont}{\fontsize{26}{28}\bfseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{12}{14}\mdseries\upshape}
+
+% Personal information
+\name{Ouahabi}{Benhenni}
+\title{AI Software Engineer · Computer Vision \& Biomedical AI}
+\address{Boumerdès, Algeria}{}{ }
+\phone[mobile]{+213 6 76 95 79 17}
+\email{Ouahabi.benhenni.fs@univ-boumerdes.dz}
+\homepage{ouahabi-benhenni.web.app}
+\social[linkedin]{ouahabi-benhenni-a28bb5155}
+\social[github]{Greyma}
+
+\begin{document}
+\makecvtitle
+
+% AWARDS — highlighted at the top
+\section{Awards \& Distinctions}
+\cvitem{2025}{\textbf{1\textsuperscript{st} place} — National AI Competition Algeria-Tunisia (DevUp Boumerdès / Univ.\ of Tébessa): medical computer vision project using Deep Learning.}
+
+% PROFILE
+\section{Profile}
+\cvitem{}{AI Software Engineer specializing in Computer Vision, Biomedical AI, and distributed systems. Proficient in end-to-end pipelines: data acquisition, model training (CNN, Vision Transformers, U-Net, YOLOv8), deployment, and integration into real-time web applications. Active research in computational genomics applied to treatment identification through DNA analysis. Experienced in microservices architecture, technical mentoring, and Agile team collaboration.}
+
+% SKILLS
+\section{Skills}
+\cvitem{Languages}{Python, JavaScript, Java, C++, C\#, SQL, PHP}
+\cvitem{AI / ML / DL}{PyTorch, TensorFlow, Keras, Scikit-Learn, OpenCV, Ultralytics, HuggingFace Transformers}
+\cvitem{Architectures}{CNN, U-Net, YOLOv8, Vision Transformers, Mask R-CNN, RNN, Nucleotide Transformer}
+\cvitem{LLM / GenAI}{LangChain, LangGraph, LLM agents, RAG, FAISS, ONNX}
+\cvitem{Backend}{FastAPI, Flask, Django (DRF, Channels, Celery), Node.js (Express)}
+\cvitem{Frontend}{React.js, Next.js, Tailwind CSS, ShadCN}
+\cvitem{Databases}{PostgreSQL, MySQL, MongoDB, SQL Server}
+\cvitem{DevOps \& Cloud}{Docker, CI/CD (GitHub Actions), Linux/VPS, Apache, Nginx, PM2}
+\cvitem{Methodologies}{OOP, Design Patterns, Git/GitHub, Agile/Scrum, RBAC, JWT}
+
+% EXPERIENCE
+\section{Professional Experience}
+
+\cventry{Feb. 2026 -- Present}{AI Software Engineer \& System Architect}{Badis.ai}{Algiers, Algeria (Part-time)}{}{%
+\begin{itemize}
+  \item Designed and developed the full architecture of an AI-powered LMS (ML/LLM pipelines, APIs, database design).
+  \item Deployed AI services into production and optimized their performance.
+  \item Led system and technical architecture decisions.
+\end{itemize}}
+
+\cventry{Feb. 2026 -- Present}{AI Research Engineer — Genomic Medicine \& Precision Oncology}{Institut Pasteur of Algeria}{Algiers, Algeria (Hybrid)}{Final-year research internship}{%
+\begin{itemize}
+  \item End-to-end AI pipeline: patient DNA $\rightarrow$ cancer type prediction $\rightarrow$ therapeutic recommendation $\rightarrow$ automated medical report generation.
+  \item Designed AI models for genomic variant analysis, cancer classification, and clinical decision support.
+  \item Collaborated with researchers and engineers in a real-world biomedical context (bioinformatics, medical AI).
+  \item Technologies: Python, PyTorch, Deep Learning, Genomics AI, LLMs, medical data processing.
+\end{itemize}}
+
+\cventry{Aug. 2025 -- Jan. 2026}{AI Consultant}{Badis.ai}{Algiers, Algeria}{}{%
+\begin{itemize}
+  \item \textbf{AI Audit \& Advisory}: Feasibility assessment and planning of an adaptive educational AI system for the ActivMath platform.
+  \item \textbf{Architecture}: Designed a personalized recommendation and learning-tracking pipeline (Python microservices, REST APIs, ONNX).
+  \item \textbf{Integration}: Deployed the solution within the existing ecosystem (Flask/Next.js) on a self-managed VPS.
+\end{itemize}}
+
+\cventry{Jun. -- Sep. 2025}{Full-Stack Developer}{Kleerinfinit}{Algiers, Algeria}{}{%
+\begin{itemize}
+  \item Built a multi-tenant B2B SaaS platform using Django 5, DRF, Django Channels (WebSockets), and Celery.
+  \item Designed a RESTful API with JWT authentication, RBAC role management, and analytics dashboards.
+  \item Collaborated in a team of 5 developers (Agile, code reviews, bi-weekly sprints).
+\end{itemize}}
+
+\cventry{2025}{Mentor — Bootcamp ``CodeCraft AI to FullStack''}{FormationTech}{Algeria}{}{%
+\begin{itemize}
+  \item Mentored 70+ participants in Data Science, Deep Learning, Computer Vision, and NLP.
+  \item Supervised 48-hour projects presented before a university jury; deployed an AI resource platform.
+\end{itemize}}
+
+\cventry{2024--2025}{AI Developer (Freelance)}{}{}{}{%
+\begin{itemize}
+  \item Built segmentation and classification pipelines for medical images (U-Net, YOLOv8, LinkNet, PSPNet).
+  \item Integrated models into interactive web interfaces (Flask, React.js).
+\end{itemize}}
+
+\cventry{2025}{Head of Development Department — DevUp Club}{University of Boumerdès}{}{}{%
+Led 120 members; organized Web, Mobile, and AI training sessions; managed development projects.}
+
+\cventry{2024}{President of the Computer Science Club — GDSC (Google Developer Student Club)}{University of Boumerdès}{}{}{%
+Led a club of 300 members: hackathons, technical workshops, training sessions, and university partnerships.}
+
+\cventry{2023--2024}{Medical AI Projects}{University of Boumerdès / CHU Mustapha Bacha}{}{}{%
+\begin{itemize}
+  \item Skin cancer classification (CNN + Vision Transformers) — \textbf{93\,\% accuracy}.
+  \item Automated cell detection and counting (YOLOv8); malaria detection.
+  \item Full medical diagnostic pipeline: preprocessing $\rightarrow$ inference $\rightarrow$ web interface.
+\end{itemize}}
+
+% RESEARCH
+\section{Research \& Publications}
+\cvitem{M.Sc. Thesis}{\emph{Treatment Identification via DNA} — fine-tuning of Nucleotide Transformer v2 (500M parameters) on 500\,000 ClinVar variants for SNV pathogenicity prediction; gene-split OOD validation (AUC-ROC 0.987).}
+\cvitem{GenAI Project}{\emph{Local Retrieval-Augmented Generation System} — document ingestion pipeline (PDF, DOCX, Markdown), vector search with embeddings, LLM inference via Ollama; fully local deployment with no external API.}
+\cvitem{Paper submitted}{Melanoma classification using Deep Learning (CNN \& Vision Transformers) — submitted for peer review.}
+
+% EDUCATION
+\section{Education}
+\cventry{2026 (expected)}{Master's in Computer Science — Information Systems}{University of Boumerdès (UMBB)}{}{}{}
+\cventry{2024}{Bachelor's in Computer Science — Information Systems}{University of Boumerdès (UMBB)}{}{}{}
+\cventry{2018--2021}{Higher Technician in Database Administration}{INSFP Hamdi Ben Yahia}{}{}{}
+\cventry{2021}{Baccalaureate — Mathematics}{Bouira}{}{}{}
+\cventry{2023--2024}{AI Certifications (Computer Vision, NLP, LLM)}{Kaggle · Udemy · Hugging Face}{}{}{}
+
+% LANGUAGES
+\section{Languages}
+\cvitem{Arabic}{C2 — Native}
+\cvitem{French}{C1}
+\cvitem{English}{B2}
+
+% PORTFOLIO
+\section{Portfolio \& GitHub}
+\cvitem{}{\url{https://ouahabi-benhenni.web.app} \quad \url{https://github.com/Greyma}}
+
+\end{document}
